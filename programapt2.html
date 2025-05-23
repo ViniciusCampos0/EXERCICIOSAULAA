@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somador de Números</title>
+  </head>
+  <body>
+    <script>
+                
+      let soma = 0;
+      let numero = 0;
+
+      while (true) {
+        numero = parseFloat(prompt("Digite um número (negativo para sair):"));
+        if (numero < 0) {
+          break;
+        }
+        soma += numero;
+      }
+      alert("A soma dos números é: " + soma);
+    </script>
+  </body>
+</html>
